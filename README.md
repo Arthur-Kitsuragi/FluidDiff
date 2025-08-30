@@ -38,4 +38,4 @@ Below is an example of FluidDiff denoising a fluid field:
 
 ## Architecture
 
-![Architecture](assets/ARCH.png)
+![Architecture](assets/Arch.png)
