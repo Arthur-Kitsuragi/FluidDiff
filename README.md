@@ -25,3 +25,8 @@ Trained on synthetic data generated with PhiFlow.
 
 Achieved MAE = 0.1 after 40 epochs.
 
+## Example Generation
+
+Below is an example of FluidDiff denoising a fluid field:
+
+![Example Output](assets/example.png)
