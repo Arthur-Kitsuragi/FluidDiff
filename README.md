@@ -25,6 +25,11 @@ Trained on synthetic data generated with PhiFlow.
 
 Achieved MAE = 0.1 after 40 epochs.
 
+To predict future condition of fluid use `ddm.generate(n, diffusion_time, data)`, 
+where `n` is amount of batches, `diffusion_time` is amount of diffusion steps during
+sampling, `data` is TensorFlow Tensor (shape = (N, 64, 64, 4), where N is number of pictures,
+the first and the second channels should be Noise, the third one - ρ(0), the fourth one - 
+64x64 matrix where each element = t/40 (t can be 1,...40; in fact it's simulation time))
 ## Example Generation
 
 Below is an example of FluidDiff denoising a fluid field:
