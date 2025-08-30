@@ -35,3 +35,7 @@ the first and the second channels should be Noise, the third one - ρ(0), the fo
 Below is an example of FluidDiff denoising a fluid field:
 
 ![Example Output](assets/example.png)
+
+## Architecture
+
+![Architecture](assets/ARCH.png)
